@@ -4,8 +4,11 @@ public class Account {
 	
 	private String name;
 	private int numCode;
-	private double amount;
+	protected double amount;
 	
+	public Account() {
+		
+	}
 	public Account (String name, int numCode, double plusamount) {
 		this.name = name;
 		this.numCode = numCode;
